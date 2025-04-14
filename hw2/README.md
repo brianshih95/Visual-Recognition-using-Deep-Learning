@@ -52,11 +52,11 @@ You can download the dataset [here](https://drive.google.com/file/d/13JXJ_hIdclo
 ## Results
 - **Best Validation Loss**: `0.0771`
 - **Comparison of loss functions:**
-| Loss Function            | Validation Loss | Observations                       |
-|--------------------------|----------------:|------------------------------------|
-| Smooth L1 (β=1.0)        | 0.0795          | Stable, good baseline              |
-| GIoU Loss                | 0.0823          | Tighter boxes but less stable      |
-| Smooth L1 (β=0.5)        | **0.0771**      | Best localization for small digits |
+  | Loss Function            | Validation Loss | Observations                       |
+  |--------------------------|-----------------|------------------------------------|
+  | Smooth L1 (β=1.0)        | 0.0795          | Stable, good baseline              |
+  | GIoU Loss                | 0.0823          | Tighter boxes but less stable      |
+  | Smooth L1 (β=0.5)        | **0.0771**      | Best localization for small digits |
 
 ## Performance Snapshot
 - Public Leaderboard
