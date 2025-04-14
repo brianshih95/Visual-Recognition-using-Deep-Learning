@@ -1,1 +1,4 @@
 data/
+output/pred.csv
+output/pred.json
+report.tex
