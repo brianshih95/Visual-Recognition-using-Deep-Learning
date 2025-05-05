@@ -29,7 +29,7 @@ You can download the dataset [here](https://drive.google.com/file/d/13JXJ_hIdclo
    ```
 2. Train the model:
    ```bash
-   python HW2_110550108.py
+   python 110550108_HW2.py
    ```
 3. The trained model, predictions, and visualizations will be saved in the `output` folder.
 
