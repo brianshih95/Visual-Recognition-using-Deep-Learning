@@ -56,13 +56,6 @@ This project implements a PromptIR-based image restoration model with the follow
 - Dual Attention Mechanism
 - Ensemble Inference
 
-Key training parameters:
-- Optimizer: AdamW
-- Learning Rate: OneCycleLR, base lr = 1e-4
-- Batch Size: 16
-- Epochs: 50 (with early stopping, patience=5)
-- Loss Function: L1 + Perceptual + SSIM
-
 ## Training
 Key training parameters:
 - Optimizer: AdamW
